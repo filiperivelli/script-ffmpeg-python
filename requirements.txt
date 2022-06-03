@@ -1,0 +1,4 @@
+future==0.18.2
+pyee==9.0.4
+python-ffmpeg==1.0.14
+typing_extensions==4.2.0

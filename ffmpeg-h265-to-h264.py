@@ -6,15 +6,15 @@ from ffmpeg import FFmpeg
 
 ffmpeg = (FFmpeg()
             .option('y')
-            .input('exemple.mp4')
+            .input('input.mp4')
              # Use a dictionary when an option name contains special characters
             .output('output.mp4',
-                    {'c:v': 'h264_nvenc',
+                    {'c:v': 'h264',
                     'c:a': 'aac',
                     'b:a': '224k'},
                     pix_fmt='yuv420p',                                     
                     preset='slow',
-                    rc='constqp/cbr/vbr',
+                    #rc='constqp/cbr/vbr',
                     b='8M',
                     maxrate='10M',
                     )           

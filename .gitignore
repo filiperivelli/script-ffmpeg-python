@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 #Projetc video tests
-exemple.mp4
+input.mp4
 output.mp4
