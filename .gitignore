@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#Projetc video tests
+exemple.mp4
+output.mp4
