@@ -16,11 +16,11 @@ class FFmpegH265ToH264:
                             {'c:v': 'h264_nvenc',
                             'c:a': 'aac',
                             'b:a': '224k',
-                            'b:v':'8M'},                           
+                            'b:v':'8M',
+                            'maxrate:v':'10M'},                           
                             pix_fmt='yuv420p',                                     
                             preset='slow',
-                            #rc='constqp/cbr/vbr',                            
-                            maxrate='10M',
+                            rc='constqp/cbr/vbr'
                             )           
                 )
 
